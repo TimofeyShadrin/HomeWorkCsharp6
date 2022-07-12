@@ -21,7 +21,7 @@ namespace Seminar6
             {
                 try
                 {
-                    Console.Write($"\tПожалуйста введите число No {i + 1}: ");
+                    Console.Write($"\tПожалуйста введите целое число No {i + 1}: ");
                     string? element = Console.ReadLine();
                     if (!String.IsNullOrEmpty(element))
                     {
