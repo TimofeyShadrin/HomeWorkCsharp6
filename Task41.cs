@@ -11,6 +11,5 @@ namespace Seminar6
             Console.WriteLine($"\n\tВы ввели {quantity} положительных(-ое) числа(-ел, -ло).\n");
             Console.Write("\tНажмите любую клавишу для выхода в основное меню: ");
         }
-
     }
 }
