@@ -11,7 +11,7 @@ namespace Seminar6
                 if (answer == "0")
                 {
                     Console.Clear();
-                    Console.Write("\n\tВыберите пункт: ");
+                    Menu.ReturnMenu();
                     answer = Console.ReadLine();
                     if (!String.IsNullOrEmpty(answer))
                         answer = answer.ToLower();
@@ -19,14 +19,12 @@ namespace Seminar6
                 else if (answer == "1")
                 {
                     Task41.ReturnTask41();
-                    Console.Write("\t");
                     Console.ReadKey();
                     answer = "0";
                 }
                 else if (answer == "2")
                 {
                     Task43.ReturnTask43();
-                    Console.Write("\t");
                     Console.ReadKey();
                     answer = "0";
                 }

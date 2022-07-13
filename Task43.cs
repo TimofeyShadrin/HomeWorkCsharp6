@@ -7,6 +7,7 @@ namespace Seminar6
             Console.Clear();
             double[] linesData = Decisions.GetDataForLines();
             Decisions.IntersectionPoint(linesData);
+            Console.Write("\tНажмите любую клавишу для выхода в основное меню: ");
         }
     }
 }

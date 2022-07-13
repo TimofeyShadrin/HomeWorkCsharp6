@@ -6,10 +6,9 @@ namespace Seminar6
         {
             Console.Write(
                 "\n\tПожалуйста введите количество обрабатываемых чисел,\n"
-                    + "\tчтоб подсчитать сколько из них больше нуля:\n"
+                    + "\tчтоб подсчитать сколько из них больше нуля: "
             );
             int length = 0;
-            Console.Write("\t");
             string? sizeOfArray = Console.ReadLine();
             if (!String.IsNullOrEmpty(sizeOfArray))
                 length = Convert.ToInt32(sizeOfArray.ToString());
